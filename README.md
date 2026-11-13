@@ -1,6 +1,6 @@
-# 서지호 — 백엔드 신입 개발자 포트폴리오
+# 첼리스트 강서아
 
-Portfolio Maker로 만든 정적 사이트입니다. **빌드 도구가 필요 없습니다.**
+포메(Portfolio Maker)로 만든 정적 사이트입니다. **빌드 도구가 필요 없습니다.**
 
 ## 열기
 
@@ -12,20 +12,21 @@ python -m http.server 5500
 
 → <http://localhost:5500/index.html>
 
+3D 효과 없이 내보냈으므로 `index.html`을 더블클릭해도 열립니다.
 
 ## 페이지
 
-- `index.html` — 소개
-- `프로젝트.html` — 프로젝트
-- `증빙-연락.html` — 증빙·연락
+- `index.html` — 홈
+- `공연.html` — 공연
+- `레슨.html` — 레슨
+- `섭외.html` — 섭외
 
 ## 구조
 
 ```
 index.html 등        페이지마다 한 장
 assets/site.css      레이아웃 · 테마 · 파트 스타일
-assets/init.js       3D 효과 마운트
-effects/             효과 팩 (_core · scroll-reveal · hover-preview · tilt-card · smooth-scroll)
+
 ```
 
 ## 고치는 법

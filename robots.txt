@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://portfoliomaker-samples.github.io/14-paper-trail/sitemap.xml
